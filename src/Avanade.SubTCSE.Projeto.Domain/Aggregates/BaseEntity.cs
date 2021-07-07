@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Avanade.SubTCSE.Projeto.Domain.Aggregates
 {
-    public record BaseEntity<Tid>
+    public record BaseEntity<TId>
     {
-        public Tid Id { get; set; }
+        public TId Id { get; set; }
     }
 }
